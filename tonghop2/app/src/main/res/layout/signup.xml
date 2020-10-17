@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:background="#FFCC"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="110sp"
+            android:src="@drawable/anh1">
+        </ImageView>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Home'song !!"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:textSize="35sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" * Please Registration with email sign up "
+            android:textSize="13sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  to continute using our app"
+            android:textSize="13sp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter vis social member"
+            android:textSize="15sp"
+            android:layout_marginLeft="120sp">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <ImageView
+            android:layout_marginRight="50sp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/anh2">
+        </ImageView>
+        <ImageView
+
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:src="@drawable/anh3">
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="1811505310318@sv.ute.udn.vn"
+            android:drawableLeft="@drawable/ic_home">
+        </EditText>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="pass"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_baseline_beenhere">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <CheckBox
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </CheckBox>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By creating this account, you agree to Home'song and Conditions and the Privacy Policy. (Required)
+">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btsignup"
+            android:layout_marginLeft="60dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text = "Sign in"
+            android:background="@drawable/buttonstyleblue">
+        </Button>
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text = "Login"
+            android:background="@drawable/buttonstyleoragane">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
